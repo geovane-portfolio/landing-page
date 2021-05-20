@@ -105,7 +105,7 @@ img {
         text-align: center;
         align-items: center;
         background:linear-gradient(-70deg,#000 50%, #3e3e3e 50%)
-    no-repeat center center fixed;
+        no-repeat center center fixed;
     } 
     header {
         height: auto;
