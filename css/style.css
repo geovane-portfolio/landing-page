@@ -99,7 +99,7 @@ img {
 
 @media (max-width:600px) {
     body {
-        width: 300px;
+        width: 350px;
         height: 720px;
         margin: auto;
         text-align: center;
@@ -107,9 +107,10 @@ img {
     } 
     header {
         height: auto;
+        margin-top: 20px;
     }
     header div {
-        height: 100px;
+        text-align: center;
     }
     .conteiner {
         flex-direction: column;
@@ -117,7 +118,7 @@ img {
         text-align:justify;
     }
     .title-menu {
-        padding: 5px
+        align-items: center;
     }
     section {
         flex-direction: column;
@@ -126,6 +127,10 @@ img {
     .spec {
         flex: none;
         margin-bottom: 20px;
+    }
+    p {
+        text-align: center;
+        width: auto;
     }
     h1 {
         padding: 10px;
@@ -156,7 +161,6 @@ img {
         width: 100%;
         background-color: #3e3e3e;
     }
-   
     .menuMobile {
         display: flex;
         flex-direction: column;
